@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+}
+
+.container {
+    padding: 30px;
+    background-image: url("img/backgorund.png");
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+ul li{
+   font-size: 20px;
+   color: black;
+}
+li.a {
+    list-style-image: url("img/Insta.png");   
+}
+li.b {
+    list-style-image: url("img/Twitter.png");
+}
+li.c{
+    list-style-image: url("img/Youtube.png");
+}
+a:link {
+    text-decoration: none;
+}
